@@ -56,7 +56,7 @@ Memory is a rough macOS task physical-footprint delta while retaining all 14 con
 | JavaScriptCore | 321.237 ms | 36.424 ms | 806.4 KiB |
 | QuickJS | 1000.066 ms | 90.610 ms | 117.3 KiB |
 
-At this representative workload QuickJS trades roughly 1.6–3.1× fetch time for a much smaller measured context
+At this representative workload QuickJS trades roughly 2.5–3.1× fetch time for a much smaller measured context
 footprint. All operations stay well below the 20-second watchdog; these figures are instrumentation for future engine
 work, not a performance contract.
 
