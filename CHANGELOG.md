@@ -2,6 +2,9 @@
 
 ## 0.60.3 — Unreleased
 
+### Changes
+- Crof: remove the provider after the service shut down.
+
 ### Fixed
 - Claude: opt short-lived CLI usage probes out of Remote Control so background refreshes do not create empty cloud/mobile sessions when Remote Control is enabled by default (#3651, related to #1301). Thanks @KazuyukiNishida!
 - Updates: recognize Homebrew-managed apps in `/Applications` and show the existing Homebrew update instruction, while preserving Sparkle updates for separate app copies (#3647). Thanks @fanwenlin!
