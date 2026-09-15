@@ -431,7 +431,7 @@ extension UsageStore {
         return nil
     }
 
-    private static func isSessionWindow(_ window: RateWindow) -> Bool {
+    static func isSessionWindow(_ window: RateWindow) -> Bool {
         guard let minutes = window.windowMinutes else { return true }
         return minutes <= 6 * 60
     }
